@@ -23,7 +23,7 @@ public class Rotator : MonoBehaviour
     void Update()
     {
         // Rotar el centro del carrusel alrededor de su propio eje vertical.
-        centroDelCarrusel.Rotate(Vector3.up, velocidadRotacionCentro * Time.deltaTime);
+        centroDelCarrusel.Rotate(Vector3.right, velocidadRotacionCentro * Time.deltaTime);
 
         // Rotar cada hijo alrededor del centro.
         foreach (Transform hijo in hijos)
