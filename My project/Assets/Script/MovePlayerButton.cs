@@ -2,7 +2,69 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;*/
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
+public class MoveGuideObject : MonoBehaviour
+{
+    public GameObject guideObject; // Referencia al objeto guía
+    public Vector3 targetPosition = new Vector3(5f, 2f, 0f); // Posición a la que el objeto guía se moverá
+    public float speed = 5.0f; // Velocidad de movimiento del objeto guía
+    public float rotationSpeed = 5.0f; // Velocidad de rotación del objeto guía
+
+    private bool isMoving = false;
+
+    void Start()
+    {
+        // Obtener una referencia al botón
+        Button moveButton = GetComponent<Button>();
+
+        // Agregar un listener al botón para llamar al método MoveGuide() cuando se haga clic
+        moveButton.onClick.AddListener(MoveGuide);
+    }
+
+    void Update()
+    {
+        // Si el guía está en movimiento, moverlo hacia la posición objetivo
+        if (isMoving && guideObject != null)
+        {
+            // Obtener la dirección hacia la posición objetivo
+            Vector3 direction = (targetPosition - guideObject.transform.position).normalized;
+
+            // Rotar el objeto guía hacia la dirección
+            if (direction != Vector3.zero)
+            {
+                Quaternion targetRotation = Quaternion.LookRotation(direction);
+                guideObject.transform.rotation = Quaternion.Slerp(guideObject.transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            }
+
+            // Mover el objeto guía hacia la posición objetivo
+            float step = speed * Time.deltaTime;
+            guideObject.transform.position = Vector3.MoveTowards(guideObject.transform.position, targetPosition, step);
+
+            // Si el guía ha llegado a la posición objetivo, detener el movimiento
+            if (guideObject.transform.position == targetPosition)
+            {
+                isMoving = false;
+            }
+        }
+    }
+
+    void MoveGuide()
+    {
+        // Verificar si el objeto guía existe
+        if (guideObject != null)
+        {
+            // Activar el movimiento del guía hacia la posición objetivo
+            isMoving = true;
+        }
+    }
+}
+
+
+/*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -50,7 +112,7 @@ public class MoveGuideObject : MonoBehaviour
             isMoving = true;
         }
     }
-}
+}*/
 
 /*
 public class MoveObjectsButton : MonoBehaviour
