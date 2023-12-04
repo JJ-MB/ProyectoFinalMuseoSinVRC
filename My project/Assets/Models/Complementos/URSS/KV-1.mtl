@@ -1,0 +1,42 @@
+# Blender 3.6.2 MTL File: 'None'
+# www.blender.org
+
+newmtl Material.026
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.035836 0.086887 0.039349
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.027
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Desktop/ProyectoFinalRV/PFMuseoSVRC/ProyectoFinalMuseoSinVRC/My project/Assets/Textures/Militares/OEIYLE0.jpg
+
+newmtl Material.028
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Desktop/ProyectoFinalRV/PFMuseoSVRC/ProyectoFinalMuseoSinVRC/My project/Assets/Textures/Militares/loft-pared.jpg
+
+newmtl Material.029
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Desktop/ProyectoFinalRV/PFMuseoSVRC/ProyectoFinalMuseoSinVRC/My project/Assets/Textures/Militares/6363.jpg

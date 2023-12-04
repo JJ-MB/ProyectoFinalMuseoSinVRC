@@ -1,0 +1,72 @@
+# Blender 3.6.2 MTL File: 'None'
+# www.blender.org
+
+newmtl Material.053
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.682774 0.663916 0.387455
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.054
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Downloads/desktop-wallpaper-camuflaje-militar-buscar-con-google-textura-camuflaje-duck-camo.jpg
+
+newmtl Material.055
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Downloads/desktop-wallpaper-camuflaje-militar-buscar-con-google-textura-camuflaje-duck-camo.jpg
+
+newmtl Material.056
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Downloads/camuflaje-ejercito-vector-patrones-fisuras-textura-camuflaje-militar-repite-fondo-vector-diseno-ejercito-costuras_1142-15300.jpg
+
+newmtl Material.057
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Downloads/camuflaje-ejercito-vector-patrones-fisuras-textura-camuflaje-militar-repite-fondo-vector-diseno-ejercito-costuras_1142-15300.jpg
+
+newmtl Material.058
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Downloads/textura-metalica-sucia.jpg
+
+newmtl Material.059
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Downloads/textura-metalica-sucia.jpg

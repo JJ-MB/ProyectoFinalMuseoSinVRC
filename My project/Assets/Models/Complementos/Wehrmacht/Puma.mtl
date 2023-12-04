@@ -1,0 +1,42 @@
+# Blender 3.6.2 MTL File: 'None'
+# www.blender.org
+
+newmtl Material.041
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.287044 0.272285 0.065782
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.042
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Desktop/ProyectoFinalRV/PFMuseoSVRC/ProyectoFinalMuseoSinVRC/My project/Assets/Textures/Militares/desktop-wallpaper-camuflaje-militar-buscar-con-google-textura-camuflaje-duck-camo.jpg
+
+newmtl Material.043
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/Users/jorge/Desktop/ProyectoFinalRV/PFMuseoSVRC/ProyectoFinalMuseoSinVRC/My project/Assets/Textures/Militares/desktop-wallpaper-camuflaje-militar-buscar-con-google-textura-camuflaje-duck-camo.jpg
+
+newmtl Material.044
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.045184 0.045037 0.007501
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
